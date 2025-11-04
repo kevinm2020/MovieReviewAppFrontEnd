@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react"; // bring in useEffect and useState
 
 /**
- * AdminMovies - single-file admin UI for:
+ * AdminMoviesChart - single-file admin UI for:
  *  - listing movies (GET /api/movies)
  *  - adding a movie (POST /api/admin/movies)
  *  - deleting a movie (DELETE /api/admin/movies/{id})

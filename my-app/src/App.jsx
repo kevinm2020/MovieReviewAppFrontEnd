@@ -3,6 +3,8 @@ import Home from "./Home";
 import AdminMovies from "./AdminMovies";
 import MovieDetails from "./MovieDetails";
 import ReviewPage from "./components/ReviewPage/ReviewPage";
+import AdminPanel from "./AdminPanel";
+
 
 /**
  * App entry with routing.
@@ -26,7 +28,7 @@ export default function App() {
         <Route path="/movies/:id" element={<MovieDetails />} />
 
         {/* Admin route */}
-        <Route path="/admin" element={<AdminMovies />} />
+        <Route path="/admin" element={<AdminPanel />} />
 
         {/* Example: <Route path="/movies" element={<Movies />} /> */}
         <Route path="/movie_reviews/:movieId" element={<ReviewPage/>} />
